@@ -1,0 +1,39 @@
+{
+ "name": "binutils",
+ "version": "2.46.1",
+ "license": "GPL-3.0+",
+ "homepage": "https://www.gnu.org/software/binutils/",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "binutils-2.46.1.tar.xz"
+ ],
+ "desc": "GNU binutils 2.46.1: as, ld, ar, nm, objdump, objcopy, readelf, strip (64-bit tOS)",
+ "file": "binutils-2.46.1.tpkg",
+ "size": 9409618,
+ "sha256": "bd6c86a0132cafd17451ad7cdc0aa662f445db2b7eb3caa8fb2b68ba7fc4bc3a",
+ "unpacked": 23331408,
+ "min_build": 615,
+ "depends": [
+  "glibc-dev"
+ ],
+ "commands": {
+  "as": "bin/as",
+  "ld": "bin/ld",
+  "ar": "bin/ar",
+  "ranlib": "bin/ranlib",
+  "nm": "bin/nm",
+  "objdump": "bin/objdump",
+  "objcopy": "bin/objcopy",
+  "readelf": "bin/readelf",
+  "strip": "bin/strip",
+  "size": "bin/size",
+  "strings": "bin/strings",
+  "addr2line": "bin/addr2line",
+  "c++filt": "bin/c++filt",
+  "elfedit": "bin/elfedit",
+  "gprof": "bin/gprof"
+ }
+}

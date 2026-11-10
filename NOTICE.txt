@@ -1,0 +1,5 @@
+GNU binutils 2.46.1 for tOS
+===========================
+
+Built from the release tarball (binutils-2.46.1.tar.xz beside this package), unmodified, for x86-64 Linux with the glibc-dev package as its sysroot (./configure --prefix=/system/pkg/binutils --with-sysroot=/system/pkg/glibc-dev/sysroot --disable-nls --disable-plugins --disable-gold --disable-gprofng). License: GPL-3.0 or later (LICENSE).
+glibc: the programs are linked dynamically against the GNU C Library, which tOS's base system carries in /lib64 and /lib/x86_64-linux-gnu.
